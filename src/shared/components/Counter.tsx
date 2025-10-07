@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { useAppSelector, useAppDispatch } from "@/hooks/redux";
+import { useAppSelector, useAppDispatch } from "@/shared/hooks/redux";
 import {
   increment,
   decrement,
   incrementByAmount,
-} from "@store/slices/counterSlice";
+} from "@/app/store/slices/counterSlice";
 import "./Counter.scss";
 
 const Counter: React.FC = () => {

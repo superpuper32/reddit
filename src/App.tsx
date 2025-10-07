@@ -1,7 +1,7 @@
 import React from "react";
 
-import Counter from "@components/Counter";
-import { Header } from "@components/header";
+import Counter from "@/shared/components/Counter";
+import { Header } from "@/shared/components/header";
 import { Articles } from "@/widgets/articles";
 
 import "./App.scss";

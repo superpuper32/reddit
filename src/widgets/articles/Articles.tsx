@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Card } from "@/components/card";
+import { Card } from "@/shared/components/card";
 
 export const Articles: React.FC = () => {
   const [articles, setArticles] = useState([
