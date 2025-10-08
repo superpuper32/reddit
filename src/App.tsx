@@ -2,7 +2,7 @@ import React from "react";
 
 import Counter from "@/shared/components/Counter";
 import { Header } from "@/shared/components/header";
-import { Articles } from "@/widgets/articles";
+import { Home } from "./pages/home/Home";
 
 import "./App.scss";
 
@@ -12,10 +12,7 @@ const App: React.FC = () => {
       <Header />
 
       <main className="main">
-        <article>
-          <Articles />
-        </article>
-
+        <Home />
       </main>
 
       <aside>
